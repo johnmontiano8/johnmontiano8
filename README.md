@@ -17,7 +17,7 @@
 <a target="_blank" href="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" style="display: inline-block;"><img src="https://www.vectorlogo.zone/logos/git-scm/git-scm-icon.svg" alt="git" width="42" height="42" /></a></p>
 <h2>✒️ Recent Posts</h2>
 <ul>
-<li><a target="_blank" href=""></a></li>
+<!-- <li><a target="_blank" href=""></a></li>
 <p><img align="center" src="https://github-readme-stats.vercel.app/api?username=Guxo&show_icons=true&locale=en" alt="Guxo" /></p>
 <p><img align="center" src="https://github-readme-streak-stats.herokuapp.com/?user=Guxo&" alt="Guxo" /></p>
-<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Guxo&show_icons=true&locale=en&layout=compact" alt="Guxo" /></p>
+<p><img src="https://github-readme-stats.vercel.app/api/top-langs?username=Guxo&show_icons=true&locale=en&layout=compact" alt="Guxo" /></p> -->
