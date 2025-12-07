@@ -18,8 +18,10 @@ jobs:
           outputs: dist/pingpong.svg
           mode: pong
 
-      - name: Upload Artifact
-        uses: actions/upload-artifact@v4
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3
         with:
-          name: pingpong
-          path: dist/pingpong.svg
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
