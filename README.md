@@ -42,18 +42,9 @@
 
 <!-- 🟡 PACMAN ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg" />
-  <img alt="PacMan Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg" />
-</picture>
-
----
-
-<!-- 🏓 PINGPONG ANIMATION -->
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
-  <img alt="PingPong Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg">
 </picture>
 
 ###
