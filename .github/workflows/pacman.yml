@@ -1,26 +1,32 @@
 name: Generate PacMan Animation
 on:
-  schedule:
-    - cron: "0 */12 * * *"
-  workflow_dispatch:
+schedule: # Run automatically every 24 hours
+  - cron: "0 */24 * * *"
+workflow_dispatch: # Allows manual triggering
+push: # Runs on every push to the main branch
+  branches:
+    - main
 
 jobs:
   generate:
+    permissions:
+    contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
       - name: Checkout
         uses: actions/checkout@v4
 
       - name: Generate PacMan
-        uses: Platane/snk@v3
+        uses: johnmontiano8/pacman-contribution-graph@main
         with:
           github_user_name: johnmontiano8
           outputs: dist/pacman.svg
-          # 👇 Tell SNK to use the PacMan simulation:
           mode: pacman
 
       - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+        uses: crazy-max/ghaction-github-pages@v3.1.0
         with:
           target_branch: output
           build_dir: dist
