@@ -31,9 +31,9 @@
 <br clear="both">
 
 <picture> 
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif">
-  <source media="(prefers-color-scheme: light)" srcset="https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif">
-  <img alt="github contribution grid snake animation" src="https://github.com/YOUR_USERNAME/YOUR_USERNAME/blob/output/github-contribution-grid-snake.gif">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/johnmontiano8/johnmontiano8/blob/output/github-contribution-grid-snake.gif">
+  <source media="(prefers-color-scheme: light)" srcset="https://github.com/johnmontiano8/johnmontiano8/blob/output/github-contribution-grid-snake.gif">
+  <img alt="github contribution grid snake animation" src="https://github.com/johnmontiano8/johnmontiano8/blob/output/github-contribution-grid-snake.gif">
 
 </picture>
 
