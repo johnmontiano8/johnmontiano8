@@ -33,27 +33,27 @@
 
 <!-- 🐍 SNAKE ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
-  <img alt="snake animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
 </picture>
 
 ---
 
 <!-- 🟡 PACMAN ANIMATION -->
 <picture>
-    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph-dark.svg">
-    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
-    <img alt="pacman contribution graph" src="https://raw.githubusercontent.com/[USERNAME]/[USERNAME]/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
+  <img alt="PacMan Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
 </picture>
 
 ---
 
 <!-- 🏓 PINGPONG ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pingpong.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pingpong.svg" />
-  <img alt="pingpong animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pingpong.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
+  <img alt="PingPong Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
 </picture>
 
 ###

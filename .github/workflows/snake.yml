@@ -2,12 +2,19 @@ name: Generate Snake
 
 on:
   schedule:
-    - cron: "0 */6 * * *"
-  workflow_dispatch:
+    - cron: "0 * * * *" # every hour
+  workflow_dispatch: # manual trigger
+  push:
+    branches:
+      - main # optional: regenerate on push
 
 jobs:
-  build:
+  generate:
+    permissions:
+      contents: write
     runs-on: ubuntu-latest
+    timeout-minutes: 5
+
     steps:
       - uses: actions/checkout@v3
 
@@ -15,11 +22,9 @@ jobs:
         uses: Platane/snk@v3
         with:
           github_user_name: johnmontiano8
-          outputs: |
-            dist/snake.svg
-            dist/snake.gif
+          outputs: dist/github-contribution-grid-snake.svg
 
-      - name: Deploy to output branch
+      - name: Push to output branch
         uses: crazy-max/ghaction-github-pages@v3
         with:
           target_branch: output
