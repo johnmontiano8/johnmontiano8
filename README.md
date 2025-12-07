@@ -42,9 +42,9 @@
 
 <!-- 🟡 PACMAN ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
-  <img alt="PacMan Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg" />
+  <img alt="PacMan Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg" />
 </picture>
 
 ---
