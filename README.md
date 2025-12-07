@@ -1,4 +1,4 @@
-<h2 align="left">Hi 👋!</h2>
+<img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Guxo&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&textBg=false"/>
 
 ###
 
