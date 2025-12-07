@@ -32,11 +32,11 @@
 <br clear="both">
 
 <!-- 🐍 SNAKE ANIMATION -->
-<!-- <picture>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
   <img alt="snake animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
-</picture> -->
+</picture>
 
 ---
 

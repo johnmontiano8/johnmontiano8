@@ -14,7 +14,7 @@ jobs:
       - name: Generate PacMan
         uses: Platane/snk@v3
         with:
-          github_user_name: ${{ github.repository_owner }}
+          github_user_name: johnmontiano8
           outputs: dist/pacman.svg
           # 👇 Tell SNK to use the PacMan simulation:
           mode: pacman
