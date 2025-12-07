@@ -31,21 +31,29 @@
 
 <br clear="both">
 
+<!-- 🐍 SNAKE ANIMATION -->
 <picture>
-  <!-- Snake -->
-  <!-- <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
-  <img alt="github snake animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" /> -->
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/snake.svg" />
+</picture>
 
-  <!-- Pacman -->
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
-  <img alt="github snake animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pacman.svg" />
+---
 
-  <!-- PingPong -->
-  <!-- <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" />
-  <img alt="github snake animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-pingpong.svg" /> -->
+<!-- 🟡 PACMAN ANIMATION -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/pacman.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/pacman.svg" />
+  <img alt="pacman animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/pacman.svg" />
+</picture>
+
+---
+
+<!-- 🏓 PINGPONG ANIMATION -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/pingpong.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/pingpong.svg" />
+  <img alt="pingpong animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/dist/pingpong.svg" />
 </picture>
 
 ###

@@ -1,29 +1,26 @@
-name: Generate Pacman
-
+name: Generate PacMan Animation
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Generate Pacman animation
+      - name: Generate PacMan
         uses: Platane/snk@v3
         with:
-          github_user_name: johnmontiano8
-          palette: "pacman"
-          outputs: |
-            dist/github-contribution-grid-pacman.svg
-            dist/github-contribution-grid-pacman.gif
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/pacman.svg
+          # 👇 Tell SNK to use the PacMan simulation:
+          mode: pacman
 
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: pacman
+          path: dist/pacman.svg

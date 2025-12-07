@@ -1,29 +1,25 @@
-name: Generate PingPong
-
+name: Generate PingPong Animation
 on:
   schedule:
-    - cron: "0 */6 * * *"
+    - cron: "0 */12 * * *"
   workflow_dispatch:
 
 jobs:
-  build:
+  generate:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v4
 
-      - name: Generate PingPong animation
+      - name: Generate PingPong
         uses: Platane/snk@v3
         with:
-          github_user_name: johnmontiano8
-          palette: "pingpong"
-          outputs: |
-            dist/github-contribution-grid-pingpong.svg
-            dist/github-contribution-grid-pingpong.gif
+          github_user_name: ${{ github.repository_owner }}
+          outputs: dist/pingpong.svg
+          mode: pong
 
-      - name: Deploy to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      - name: Upload Artifact
+        uses: actions/upload-artifact@v4
         with:
-          target_branch: output
-          build_dir: dist
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          name: pingpong
+          path: dist/pingpong.svg
