@@ -33,27 +33,27 @@
 
 <!-- 🐍 SNAKE ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./output/dist/snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./output/dist/snake.svg" />
-  <img alt="snake animation" src="./output/dist/snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
+  <img alt="snake animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/snake.svg" />
 </picture>
 
 ---
 
 <!-- 🟡 PACMAN ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./output/dist/pacman.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./output/dist/pacman.svg" />
-  <img alt="pacman animation" src="./output/dist/pacman.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman.svg" />
+  <img alt="pacman animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman.svg" />
 </picture>
 
 ---
 
 <!-- 🏓 PINGPONG ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="./output/dist/pingpong.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="./output/dist/pingpong.svg" />
-  <img alt="pingpong animation" src="./output/dist/pingpong.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pingpong.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pingpong.svg" />
+  <img alt="pingpong animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pingpong.svg" />
 </picture>
 
 ###
