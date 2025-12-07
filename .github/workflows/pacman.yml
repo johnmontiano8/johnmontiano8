@@ -16,17 +16,14 @@ jobs:
     timeout-minutes: 5
 
     steps:
-      - uses: actions/checkout@v3
-
-      - name: Generate PacMan Animation
-        uses: Platane/snk@v3
+      - name: Generate pacman-contribution-graph.svg
+        uses: johnmontiano8/pacman-contribution-graph@main
         with:
           github_user_name: johnmontiano8
-          mode: pacman
-          outputs: dist/github-contribution-grid-pacman.svg
 
-      - name: Push to output branch
-        uses: crazy-max/ghaction-github-pages@v3
+      # Push the generated SVG to the output branch
+      - name: Push pacman-contribution-graph.svg to the output branch
+        uses: crazy-max/ghaction-github-pages@v2.1.3
         with:
           target_branch: output
           build_dir: dist
