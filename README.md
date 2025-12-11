@@ -1,7 +1,7 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&height=200&color=gradient&customColorList=6,11,20,29&text=Guxo&fontSize=48&fontColor=fff&animation=twinkling&fontAlignY=35&textBg=false"/>
 
 ###
-
+ 
 <img align="right" height="150" src="angrycat.gif"  />
 
 ###
@@ -53,4 +53,3 @@
   <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg">
 </picture>
 
-###
