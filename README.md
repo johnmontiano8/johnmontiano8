@@ -32,7 +32,7 @@
 ###
 
 <div align="left">
-  <img src="https://visitor-badge.laobi.icu/badge?page_id=johnmontiano8.johnmontiano8&"  /> <img width="12" />
+  <img src="https://visitor-badge.laobi.icu/badge?page_id=notguxo.notguxo&"  /> <img width="12" />
 </div>
 
 ###
@@ -41,17 +41,17 @@
 
 <!-- 🐍 SNAKE ANIMATION -->
 <!-- <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/notguxo/notguxo/output/github-contribution-grid-snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/notguxo/notguxo/output/github-contribution-grid-snake.svg" />
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/notguxo/notguxo/output/github-contribution-grid-snake.svg" />
 </picture> -->
 
 ---
 
 <!-- 🟡 PACMAN ANIMATION -->
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg">
-  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/johnmontiano8/johnmontiano8/output/pacman-contribution-graph.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/notguxo/notguxo/output/pacman-contribution-graph-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/notguxo/notguxo/output/pacman-contribution-graph.svg">
+  <img alt="Pac-Man contribution graph" src="https://raw.githubusercontent.com/notguxo/notguxo/output/pacman-contribution-graph.svg">
 </picture>
 
